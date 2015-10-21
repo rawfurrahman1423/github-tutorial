@@ -14,7 +14,7 @@ code and it can be both on or off line.
 * _Nitrious_
 
 Github is a website on the cloud. You can put code into it and take it out   
-and other can access it easily.
+and others can access it easily.
 
 To use Git and Github, you would have to type your code in git then commit  
 your work and push it into the github. You can also pull or make copies of   
@@ -28,7 +28,11 @@ the cloud.
 
 ###Steps for Initial setup:
 1. make a Github account
-2. find the SSH key of the Git and 
+2. find the SSH key of the Git and us to connect to the github
+3. copy and paste the SSH key into the github (it can start with ssh-rsa)
+4. Then you will need to connect your username and yoru email to github though  
+git.
+5. 
 
 
 ---
