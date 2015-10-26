@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub Tutorial by rawfurrahman1423</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub Tutorial</h1>
+      <h2 class="project-tagline">GitHub (&quot;gitting&quot; started)</h2>
+      <a href="https://github.com/rawfurrahman1423/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/rawfurrahman1423/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/rawfurrahman1423/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Rawfur rahman</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Although Git and GitHub sound similar, they are very different.<br>
+Git is your regular work space. It is the location where you type your<br>
+code and it can be both on or off line. It can be considered the local file.</p>
+
+<h3>
+<a id="examples-of-git-would-be" class="anchor" href="#examples-of-git-would-be" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples of Git would be:</h3>
+
+<ul>
+<li><em>cloud9</em></li>
+<li><em>Nitrious</em></li>
+</ul>
+
+<p>Github is a website on the cloud. You can put code into it and take it out<br>
+and others can access it easily.</p>
+
+<p>To use Git and Github, you would have to type your code in git then commit<br>
+your work and push it into the github. You can also pull or make copies of<br>
+it (cloning) if you need to later on. It is called the remote.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>Before you pull or push code into and out of Github, Github must know where the<br>
+code and coming from. So you must connect your coding platform with Github in<br>
+the cloud.</p>
+
+<h3>
+<a id="steps-for-initial-setup" class="anchor" href="#steps-for-initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps for Initial setup:</h3>
+
+<ol>
+<li>make a Github account</li>
+<li>find the SSH key of the Git and us to connect to the github</li>
+<li>copy and paste the SSH key into the github (it can start with ssh-rsa)</li>
+<li>Then you will need to connect your username and yoru email to github though<br>
+git.</li>
+<li>So you use <em>git config</em> for your remote (cloud) to understand it.</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>Setting up a Repository will let you push things into github. A Repository is<br>
+a local file where you can type your code.</p>
+
+<p>You can work on a file and connect it to Github.  </p>
+
+<p>In order to connect it to the github you must initialize, <strong>save</strong>, add, commit and 
+push:  </p>
+
+<p>initialize:</p>
+
+<pre><code>Git init &lt;inside of repository&gt;
+</code></pre>
+
+<p>save:  </p>
+
+<pre><code>command/control S 
+</code></pre>
+
+<p>add:</p>
+
+<pre><code>git add &lt;name of file&gt;
+</code></pre>
+
+<p>commit:</p>
+
+<pre><code>git commit -m &lt;"any name that work for coder"&gt;
+</code></pre>
+
+<p>Status (if you need):</p>
+
+<pre><code>Git status (tells you the situation)
+</code></pre>
+
+<p>Push:</p>
+
+<pre><code>Git push 
+</code></pre>
+
+<p>Then if you check the Github page that you comected the repository to, you will<br>
+see the changes that you have made.</p>
+
+<p>git: a basic command that recognizes git<br>
+remote: this is the connection to the file that can be altered in github<br>
+add: a remote repo will be added</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>When typing work, it can get messy. SO you need to format the page to make it<br>
+more readable:</p>
+
+<p>Italics:</p>
+
+<pre><code>_text_
+</code></pre>
+
+<p>bold:</p>
+
+<pre><code>**text**
+</code></pre>
+
+<p>largest header:</p>
+
+<pre><code># text
+</code></pre>
+
+<p>smaller headers:</p>
+
+<pre><code>##text
+###text
+####text
+</code></pre>
+
+<p>add picture or link:</p>
+
+<pre><code>[text](URL)
+</code></pre>
+
+<p>bullets:</p>
+
+<pre><code>* text
+* text
+</code></pre>
+
+<p>ordered list:</p>
+
+<pre><code>1. text
+2. text
+3. text
+</code></pre>
+
+<p>line break:</p>
+
+<pre><code>text(then two spaces)
+</code></pre>
+
+<p>For more help please visit Mr. Mueller's slides:<br>
+<a href="https://sites.google.com/a/hstat.org/11sep1516/github">Click here for slides</a> </p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/rawfurrahman1423/github-tutorial">GitHub Tutorial</a> is maintained by <a href="https://github.com/rawfurrahman1423">rawfurrahman1423</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
